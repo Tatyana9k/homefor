@@ -1161,3 +1161,41 @@ body {
         }
     }
 }
+.news {
+    &-text {
+        padding: 0px 22px 19px 30px;
+        &__data {
+            font-size: 0.75rem;
+            font-weight: 500;
+            opacity: 0.6;
+            margin-bottom: 10px;
+        }
+        &__description {
+            line-height: 1.5;
+            width: 90%;
+        }
+        &__btn {
+            opacity: 0.8;
+            position: relative;
+            cursor: pointer;
+            padding-top: 8px;
+            &:hover {
+                &::after {
+                    background-image: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAMCAYAAACulacQAAAAk0lEQVQYlW3QMWpCcRDE4cmrUllYCEFSBy/gCUS8gXVqyRWSI4RcIGBrJ1gpBJJKcqlPVl7x/OPCbPOD2ZkNfrDBAzJUrSXOeEfXwtIcf/jEYwtLM5zwjVELS8/YY4fJNUQz4yTbJF3XkiSrJE9JDkPLcnnDP9bDm1Xho6+0GKat6F/47Svd9KzoR7zc+9Arpi1ALi1B5AX1Ig8oAAAAAElFTkSuQmCC");
+                }
+            }
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 8px;
+                height: 15px;
+                top: 12px;
+                left: 150px;
+                background-image: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAMCAYAAACulacQAAAAqklEQVQYlV3QsUqCcRSG8Z/WoIsgQml0CQriVehFOOSQS0RrQhcgOjsJzg1uTiIubt6AOIe0NrYlB74v/vqsz+Gc97yFdquzxRIz/Em4qd83vvGGB+zSgVus8YMpqnjHb8hiNrTHEM1sfSWVwQED1DDHXSqDLzyhjMW1DLpoYBWBcgp4QR8TfOYyNnyghxE2+SsljNHGa5b8/8+I/ohnHNPjIaOVKOJ0EQtnaqAcL+nLxPcAAAAASUVORK5CYII=");
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    
+}
