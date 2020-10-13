@@ -95,3 +95,43 @@ body {
     background-size: cover;
     padding-bottom: 39px;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 174px;
+    @media (max-width: 540px) {
+        margin-top: 140px;
+    }
+    &__title {
+        font-size: 3.75rem;
+        color: $whiteH1;
+        padding-bottom: 31px;
+        text-align: center;
+        @media (max-width: 960px) {
+            font-size: 2.3rem;
+        }
+        @media (max-width: 540px) {
+            font-size: 1.5rem;
+        }
+        @media (max-width: 540px) {
+            font-size: 1.25rem;
+        }
+    }
+    &__text {
+        font-weight: 500;
+        line-height: 1.5;
+        color: $white;
+        max-width: 35rem;
+        text-align: center;
+        padding-bottom: 44px;
+        @media (max-width: 960px) {
+            font-size: 0.9rem;
+            margin: 0 10px;
+        }
+        @media (max-width: 540px) {
+            font-size: 0.75rem;
+        }
+    }
+}
