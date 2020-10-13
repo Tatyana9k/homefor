@@ -550,3 +550,21 @@ body {
     background: #302d32;
     height: 1px;
 }
+
+.section-house {
+    margin-bottom: 153px;
+    @media (max-width: 1300px) {
+        margin-bottom: 100px;
+    }
+    @media (max-width: 960px) {
+        margin-bottom: 80px;
+    }
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
