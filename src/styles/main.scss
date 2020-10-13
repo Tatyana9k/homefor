@@ -244,3 +244,38 @@ body {
         padding: 1.3rem 3.2rem;
     }
 }
+.slider-main {
+    &__item {
+        outline: none;
+    }
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 166px;
+        cursor: pointer;
+        @media (max-width: 540px) {
+            margin-top: 140px;
+
+        }
+        
+    }
+    .slick-dots li {
+        list-style-type: none;
+        margin: 0 6px;
+        
+        &.slick-active button {
+            background-color: $whiteH1;
+        }
+    }
+    .slick-dots button {
+        width: 10px;
+        height: 10px;
+        font-size: 0;
+        background-color: rgba($whiteH1, 0.4);
+        outline: none;
+        transition: 0.3s ease;
+        padding: 0;
+        border: none;
+    }
+}
