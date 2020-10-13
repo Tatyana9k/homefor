@@ -930,3 +930,84 @@ body {
         }
     }
 }
+.plan-home {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    background-color: #ffffff;
+    &-23 {
+        top: 205px;
+        left: 284px;
+        @media (max-width: 1800px) {
+            left: 195px;
+        }
+        @media (max-width: 1700px) {
+            left: 112px;
+        }
+        @media (max-width: 1300px) {
+            top: 205px;
+            left: 28px;
+        }
+    }
+    &-56 {
+        bottom: 140px;
+        left: 468px;
+        height: 80px;
+        width: 120px;
+        @media (max-width: 1800px) {
+            left: 407px;
+        }
+        @media (max-width: 1700px) {
+            left: 275px;
+        }
+        @media (max-width: 1300px) {
+            bottom: 140px;
+            left: 150px;
+        }
+    }
+    &-234 {
+        width: 120px;
+        top: 92px;
+        left: 918px;
+        @media (max-width: 1800px) {
+            left: 840px;
+        }
+        @media (max-width: 1700px) {
+            left: 730px;
+        }
+        @media (max-width: 1300px) {
+            top: 92px;
+            left: 550px;
+        }
+    }
+    &-116 {
+        top: 120px;
+        right: 631px;
+        @media (max-width: 1800px) {
+            right: 548px;
+        }
+        @media (max-width: 1700px) {
+            right: 458px;
+        }
+        @media (max-width: 1300px) {
+            top: 120px;
+            right: 300px;
+        }
+    }
+    
+}
+.plan-school-27{
+    top: 70px;
+    right: 246px;
+    @media (max-width: 1800px) {
+        right: 146px;
+    }
+    @media (max-width: 1700px) {
+        right: 70px;
+    }
+    @media (max-width: 1300px) {
+        top: 70px;
+        right: 0px;
+    }
+}
