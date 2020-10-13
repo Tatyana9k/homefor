@@ -787,3 +787,56 @@ body {
         margin-bottom: 100px;
     }
 }
+.slider-apartments {
+    flex-wrap: wrap;
+}
+.slider-apartment {
+    &:nth-child(4) {
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+    &:nth-child(5) {
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+    &:nth-child(6) {
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+    &__item {
+        @media (max-width: 1300px) {
+            margin: 20px 10px 0 10px;
+        }
+    }
+    margin-top: 24px;
+    &-1 {
+        background: url(../img/apartment-1.png) center center/cover no-repeat;
+    }
+    &-2 {
+        background: url(../img/apartment-2.png) center center/cover no-repeat;
+    }
+    &-3 {
+        background: url(../img/apartment-3.png) center center/cover no-repeat;
+    }
+    &-4 {
+        background: url(../img/apartment-4.png) center center/cover no-repeat;
+    }
+    &-5 {
+        background: url(../img/apartment-5.png) center center/cover no-repeat;
+    }
+    &-6 {
+        background: url(../img/apartment-6.png) center center/cover no-repeat;
+    }
+    &-info__painting {
+        padding-right: 123px;
+    }
+}
+.section-plan {
+    margin-bottom: 151px;
+    @media (max-width: 1200px) {
+        margin-bottom: 100px;
+    }
+}
