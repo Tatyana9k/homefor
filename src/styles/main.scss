@@ -530,3 +530,23 @@ body {
         padding: 0;
     }
 }
+/*polzunok*/
+.ui-slider.ui-slider-horizontal {
+    background: rgba(#302d32, 0.6);
+    height:1px;
+    border:none;
+}
+.ui-slider .ui-slider-handle {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #302d32;
+    border-radius: 0;
+    outline: none;
+    background-color: #302d32;
+    top: -2px;
+    margin-left: -3px;
+}
+.ui-slider .ui-slider-range {
+    background: #302d32;
+    height: 1px;
+}
