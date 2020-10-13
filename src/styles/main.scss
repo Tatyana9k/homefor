@@ -840,3 +840,93 @@ body {
         margin-bottom: 100px;
     }
 }
+.plan {
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 83px 0 59px 41px;
+        @media (max-width: 1200px) {
+            margin: 50px 0;
+        }
+    }
+    &-link {
+        font-size: 1.125rem;
+        color: rgba($black, 0.3);
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 3px;
+        transition: 0.3s ease;
+        position: relative;
+        padding: 0 60px;
+        @media (max-width: 960px) {
+            font-size: 1rem;
+            padding: 0 50px;
+        }
+        @media (max-width: 740px) {
+            font-size: 0.9rem;
+            padding: 0 25px;
+        }
+        @media (max-width: 540px) {
+            font-size: 0.6rem;
+            padding: 0 15px;
+        }
+        @media (max-width: 320px) {
+            padding: 0 3px;
+        }
+        &:first-child {
+            @media (max-width: 960px) {
+                &::after {
+                    top: 0px;
+                    left: 303px;
+                }
+            }
+            @media (max-width: 740px) {
+                &::after {
+                    left: 237px;
+                    height: 22px;
+                }
+            }
+            @media (max-width: 540px) {
+                &::after {
+                    left: 167px;
+                    height: 15px;
+                }
+            }
+            @media (max-width: 320px) {
+                &::after {
+                    left: 144px;
+                }
+            }
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                background-color: $black;
+                width: 1px;
+                height: 24px;
+                top: 2px;
+                left: 344px;
+            }
+        }
+        &:hover {
+            color: $black;
+        }
+    }
+    &-img {
+        width: 100%;
+        height: 630px;
+        background: url(../img/plan.png) center center/cover no-repeat;
+        position: relative;
+        @media (max-width: 540px) {
+            height: 400px;
+        }
+        @media (max-width: 540px) {
+            height: 295px;
+        }
+        @media (max-width: 320px) {
+            height: 256px;
+        }
+    }
+}
